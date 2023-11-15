@@ -33,8 +33,8 @@ public class Game {
 	private Double score;
 	@Column(nullable = false)
 	private String imgUrl;
-	@Column(nullable = false, columnDefinition = "TEXT")
+	@Column(columnDefinition = "TEXT", nullable = false)
 	private String shortDescription;
-	@Column(nullable = false, columnDefinition = "TEXT")
+	@Column(columnDefinition = "TEXT", nullable = false)
 	private String longDescription;
 }
