@@ -20,7 +20,6 @@ public class GameMinDTO {
 	@NotBlank String platforms; 
 	@NotBlank Double score;
     @NotBlank String imgUrl; 
-	@NotBlank String longDescription;
 	@NotBlank String shortDescription;
 	
 	public GameMinDTO(Game entity) {
