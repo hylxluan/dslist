@@ -4,7 +4,6 @@ import org.springframework.beans.BeanUtils;
 
 import com.dslist.dslist.entities.Game;
 import com.dslist.dslist.projections.GameMinProjection;
-
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 import lombok.NoArgsConstructor;
